@@ -1,0 +1,20 @@
+@use '../source/config/reset.scss';
+@use '../source/cor/cores';
+
+.container{
+    background-color:cores.$corContainer;
+    text-align: center;
+    margin-top: 20px;
+
+}
+section{
+    margin-top: 50px;
+    margin-left: 16px;
+    
+    h4{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+
